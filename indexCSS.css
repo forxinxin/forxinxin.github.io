@@ -8,6 +8,7 @@ body {
 }
 
 .stars {
+  --primary-color: #5f91ff; /* Define light blue color */
   position: fixed;
   top: 0;
   left: 0;
