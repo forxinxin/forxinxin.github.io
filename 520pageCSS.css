@@ -8,6 +8,7 @@ body {
   width: 100%;
   position: fixed;
   background: linear-gradient(313.01deg, #dd5485, #841648 81.14%);
+  z-index: 1; /* Ensure the background layer is at the bottom */
 }
 
 h1.valentine {
