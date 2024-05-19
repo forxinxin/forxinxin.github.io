@@ -11,12 +11,16 @@ body {
 }
 
 h1.valentine {
-            font-size: 2em; /* Adjust font size as needed */
-            color: #ff69b4; /* Neon pink color */
-            text-align: center;
-            z-index: 101; /* Ensures the text appears above all background elements */
+  font-size: 2em;
+  color: #ff69b4;
+  text-align: center;
+  z-index: 200; /* Ensure the text appears above the overlay */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
         }
-        
+
 .valentine #heart-group-1 {
   background: url(https://firebasestorage.googleapis.com/v0/b/codepen-asset.appspot.com/o/valentine-animation%2Fheart-xs-1.svg?alt=media&token=c8ee973c-fd7a-4b18-b7cf-fd260962768c) 3% 18% no-repeat, url(https://firebasestorage.googleapis.com/v0/b/codepen-asset.appspot.com/o/valentine-animation%2Fheart-xs-1.svg?alt=media&token=c8ee973c-fd7a-4b18-b7cf-fd260962768c) 46% 55% no-repeat, url(https://firebasestorage.googleapis.com/v0/b/codepen-asset.appspot.com/o/valentine-animation%2Fheart-xs-1.svg?alt=media&token=c8ee973c-fd7a-4b18-b7cf-fd260962768c) 25% 3% no-repeat, url(https://firebasestorage.googleapis.com/v0/b/codepen-asset.appspot.com/o/valentine-animation%2Fheart-xs-1.svg?alt=media&token=c8ee973c-fd7a-4b18-b7cf-fd260962768c) 76% 47% no-repeat, url(https://firebasestorage.googleapis.com/v0/b/codepen-asset.appspot.com/o/valentine-animation%2Fheart-xs-1.svg?alt=media&token=c8ee973c-fd7a-4b18-b7cf-fd260962768c) 44% 61% no-repeat, url(https://firebasestorage.googleapis.com/v0/b/codepen-asset.appspot.com/o/valentine-animation%2Fheart-xs-1.svg?alt=media&token=c8ee973c-fd7a-4b18-b7cf-fd260962768c) 23% 26% no-repeat, url(https://firebasestorage.googleapis.com/v0/b/codepen-asset.appspot.com/o/valentine-animation%2Fheart-xs-1.svg?alt=media&token=c8ee973c-fd7a-4b18-b7cf-fd260962768c) 84% 27% no-repeat, url(https://firebasestorage.googleapis.com/v0/b/codepen-asset.appspot.com/o/valentine-animation%2Fheart-xs-1.svg?alt=media&token=c8ee973c-fd7a-4b18-b7cf-fd260962768c) 21% 67% no-repeat;
   height: 100vh;
